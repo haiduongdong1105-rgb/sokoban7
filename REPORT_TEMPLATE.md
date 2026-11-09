@@ -73,13 +73,3 @@ Vị trí robot nằm trong khóa trạng thái, chưa gộp theo vùng robot t�
 Chỉ bắt ô chết và freeze deadlock, chưa có các deadlock phức tạp hơn (corral, v.v.).
 Các tham số (WEIGHTS, STALL_FRAC, MAX_STATES...) chọn bằng thử tay, chưa tinh chỉnh bài bản.
 - Phân công: [A: tìm kiếm — Quỳnh Anh], [B: heuristic — Nhật Quang], [C: deadlock — Hải Dương], [D: test - Hiệp].
-
-Tài liệu tham khảo:
-Slide môn Artificial Intelligence về tìm kiếm có thông tin (A*).
-P. E. Hart, N. J. Nilsson, B. Raphael (1968). A Formal Basis for the Heuristic Determination of Minimum Cost Paths. IEEE Transactions on Systems Science and Cybernetics, 4(2), 100–107. (A*, heuristic chấp nhận được)
-I. Pohl (1970). Heuristic Search Viewed as Path Finding in a Graph. Artificial Intelligence, 1(3–4), 193–204. (Weighted A*)
-M. Likhachev, G. Gordon, S. Thrun (2003). ARA*: Anytime A* with Provable Bounds on Sub-Optimality. NeurIPS 16. (ý tưởng giảm dần trọng số w để cải thiện lời giải)
-A. Junghanns, J. Schaeffer (2001). Sokoban: Enhancing General Single-Agent Search Methods Using Domain Knowledge. Artificial Intelligence, 129(1–2), 219–251. (heuristic ghép thùng–đích, cắt tỉa deadlock trong Sokoban)
-J. Culberson (1997). Sokoban is PSPACE-complete. Technical Report TR97-02, University of Alberta. (độ khó của bài toán)
-S. Russell, P. Norvig (2020). Artificial Intelligence: A Modern Approach, 4th ed., Pearson. Chương 3. (tìm kiếm, heuristic)
-Sokoban Wiki, trang "Deadlocks" (sokobano.de/wiki). (ô chết, freeze deadlock)
