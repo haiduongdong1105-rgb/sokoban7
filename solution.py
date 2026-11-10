@@ -24,8 +24,8 @@ WEIGHTS = (3, 2, 1.5, 1)                       # w giam dan
 FALLBACK_WEIGHTS = (6, 12, 40)                 # neu w=3 can qua nhieu bo nho ma chua co loi giai
 MAX_STATES = 1500000                           # tran so trang thai moi lan chay (tranh tran RAM)
 MAX_MASK_STORAGES = 12                         # nhieu dich hon thi dung can long hon, khong dung bitmask
-STALL_FRAC = 0.12                              # từng này thời gian mà ko cải thiện thì dừng
-SOFT_FRAC = 0.5                                # giải được thì tổng tgian tối đa
+STALL_FRAC = 0.35                               # từng này thời gian mà ko cải thiện thì dừng
+SOFT_FRAC = 0.7                                # giải được thì tổng tgian tối đa
 
 
 # ----------------------------------------------------------------------------
